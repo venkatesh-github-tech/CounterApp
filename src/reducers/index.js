@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-const counterReducer = (count = 10, action) => {
+const counterReducer = (count = 0, action) => {
     //console.log(action);
     if (action.type === 'INCREMENT') {
         return count + 1;
